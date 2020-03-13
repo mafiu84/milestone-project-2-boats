@@ -18,7 +18,7 @@ font-family: 'Lato', sans-serif;
 font-size: 3vw; 
 font-weight: 300; 
 line-height: 4vw; 
-margin: 0 0 58px; 
+margin: 0 0 4vw; 
 }
 
 p { 
@@ -29,6 +29,7 @@ line-height: 2vw;
 text-indent: 2vw; 
 margin: 0; 
 text-align: left;
+margin-bottom: 4.5vw
 }
 
 

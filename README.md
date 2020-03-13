@@ -7,7 +7,7 @@ North West of England with possibility to book a bus with guide to any of them v
 
 ## DEMO
 
-Live demo you will found [here](https://mafiu84.github.io/milestone-project-2-marinas/)
+Live demo you will found [here](https://mafiu84.github.io/milestone-project-2-boats/)
 
 ## UX
 
@@ -33,8 +33,8 @@ In contact form I wanted to provide possibility to send email by email js, foote
 
 ### Skeleton
 
-<p><a href="https://github.com/mafiu84/milestone-project-2-marinas/blob/6946191e71a3e864d12a172d1324f7f38b304ffa/pictures/wireframes%20for%20milestone%20project%202.pdf"></a></p>Balsamiq wireframes
-<p><a href="https://github.com/mafiu84/milestone-project-2-marinas/blob/6946191e71a3e864d12a172d1324f7f38b304ffa/pictures/wireframes%20for%20milestone%20project%202.pdf"></a></p>PDF wireframes
+<p><a href="https://github.com/mafiu84/milestone-project-2-marinas/blob/8b0f98a6facfae50ca108b17ef53ba1da5d9a826/assets/wireframes%20for%20milestone%20project%202.bmpr"></a></p>Balsamiq wireframes
+<p><a href="https://github.com/mafiu84/milestone-project-2-marinas/blob/8b0f98a6facfae50ca108b17ef53ba1da5d9a826/assets/wireframes%20for%20milestone%20project%202.pdf"></a></p>PDF wireframes
 
 ### Surface
 
