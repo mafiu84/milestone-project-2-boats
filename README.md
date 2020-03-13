@@ -2,7 +2,8 @@
 
 Stream Two Project: Interactive Frontend Development - Code Institute
 
-Interactive website showing locations and short description of boat marinas in North West of England with possibility to book bus to any of them via contact form.
+Interactive website showing locations and short description of best places of interests for fans of boats and everything what's related to them in Merseyside, 
+North West of England with possibility to book a bus with guide to any of them via contact form.
 
 ## DEMO
 

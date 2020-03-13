@@ -1,0 +1,59 @@
+/*body background*/
+body {
+background-color: black;
+}
+
+/*headings, paragraphs and links styles*/
+h1 {
+    font-size: 6vw;
+    font-family: "raleway", sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+h2 { 
+color: #fe921f; 
+text-align: left;
+font-family: 'Lato', sans-serif; 
+font-size: 3vw; 
+font-weight: 300; 
+line-height: 4vw; 
+margin: 0 0 58px; 
+}
+
+p { 
+color: #adb7bd; 
+font-family: 'Lucida Sans', Arial, sans-serif; 
+font-size: 1.5vw; 
+line-height: 2vw; 
+text-indent: 2vw; 
+margin: 0; 
+text-align: left;
+}
+
+
+a { 
+color: #fe921f; 
+text-decoration: underline; 
+}
+
+
+a:hover { 
+color: #ffffff 
+}
+
+/*
+.date { 
+background: #fe921f; 
+color: #ffffff; 
+display: inline-block; 
+font-family: 'Lato', sans-serif; 
+font-size: 12px; 
+font-weight: bold; 
+line-height: 12px; 
+letter-spacing: 1px; 
+margin: 0 0 30px; 
+padding: 10px 15px 8px; 
+text-transform: uppercase; 
+}
+*/
