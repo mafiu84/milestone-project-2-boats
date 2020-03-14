@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Mateusz Poplewski">
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="css/main.css" type="text/css" />
     <script src="main.js"></script>
@@ -13,8 +14,10 @@
 
 <body>
 <!--header, title of website-->
+<div class="header-pic">
     <h1>Merseyside Boating Guide</h1>
-<!--Text content- short description of supported marinas with links to their websites if applicable-->
+</div>
+<!--Text content- short description of supported attractions with links to their websites and small gallery-->
 <div class="black-background">
     <h2>Liverpool Marina</h2>
     <p>Liverpool Marina is an independent family run marina with a bar & restaurant facility based just outside the heart of the bustling Livepool city centre. 
@@ -46,17 +49,17 @@
     <a href="https://www.merseyferries.co.uk/" target="_blank">Read more...</a></p>
 </div>
 
-<!--Galleria-->
+<!--Gallery-->
 
-<h2>Gallery</h2>
+<h2 class="gallery">Gallery</h2>
 
 <!--jquerry photoset grid-->
 <div class="photoset-grid-basic" data-layout="12">
   <a class="marina" href="https://www.liverpoolmarina.com/" target="_blank"><img src="img/liverpoolmarina.jpg" width="70%" height="auto" data-highres="img/demo/nyc1-highres.jpg" alt="Liverpool Marina"></a>
-  <a class="mmbc" href="http://www.mmbc.co.uk/" target="_blank"><img src="img//mmbc.jpg" width="30%" height="auto" data-highres="img/demo/nyc2-highres.jpg"></a>
-  <a class="stanley" href="https://stanleydock.com/history-heritage-stanley-dock-liverpool" target="_blank"><img src="img/stanleydock.jpg" width="50%" height="auto" data-highres="img/demo/nyc3-highres.jpg"></a>
-  <a class="collingwood" href="https://www.collingwoodboatbuilders.co.uk/" target="_blank"><img src="img/cbb.jpg" width="30%" height="auto" data-highres="img/demo/nyc2-highres.jpg"></a>
-  <a class="ferries" href="https://www.merseyferries.co.uk/" target="_blank"><img src="img/merseyferries.jpg" width="65%" height="auto" data-highres="img/demo/nyc3-highres.jpg"></a>
+  <a class="mmbc" href="http://www.mmbc.co.uk/" target="_blank"><img src="img//mmbc.jpg" width="30%" height="auto" data-highres="img/demo/nyc2-highres.jpg" alt="Mersey Motor Boat Club"></a>
+  <a class="stanley" href="https://stanleydock.com/history-heritage-stanley-dock-liverpool" target="_blank"><img src="img/stanleydock.jpg" width="50%" height="auto" data-highres="img/demo/nyc3-highres.jpg" alt="Stanley Dock"></a>
+  <a class="collingwood" href="https://www.collingwoodboatbuilders.co.uk/" target="_blank"><img src="img/cbb.jpg" width="30%" height="auto" data-highres="img/demo/nyc2-highres.jpg" alt="Collingwood Boat Builders"></a>
+  <a class="ferries" href="https://www.merseyferries.co.uk/" target="_blank"><img src="img/merseyferries.jpg" width="65%" height="auto" data-highres="img/demo/nyc3-highres.jpg" alt="Mersey Ferries"></a>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
