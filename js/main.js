@@ -1,12 +1,12 @@
 
-/*Galleria initializing*/
+/*Galleria initializing
 
 $('.photoset-grid-custom').photosetGrid({
   // Set the gutter between columns and rows
   gutter: '5px',
   // Manually set the grid layout
   layout: '21',
-  /*/ Wrap the images in links
+  Wrap the images in links
   highresLinks: true,
   // Asign a common rel attribute
   rel: 'print-gallery',
@@ -46,7 +46,8 @@ display_c();
 var request = new XMLHttpRequest()
 
 // Open a new connection, using the GET request on the URL endpoint
-request.open("GET", "http://api.weatherapi.com/v1/current.json?key=cca9a8d67994441b8ed161809201303&q=Liverpool", true)
+//request.open("GET", "http://api.weatherapi.com/v1/current.json?key=cca9a8d67994441b8ed161809201303&q=Liverpool", true)
+request.open("GET", "https://api.weatherapi.com/v1/forecast.json?key=cca9a8d67994441b8ed161809201303&q=liverpool&days=7", true)
 
 request.onload = function() {
   // Begin accessing JSON data here
@@ -54,3 +55,15 @@ request.onload = function() {
 
 // Send request
 request.send()
+
+// Begin accessing JSON data here
+var data = JSON.parse(this.response)
+
+if (request.status = 200){
+  data.forEach(day);{
+    console.log(day)
+  }
+} else {
+  console.log("error")
+}
+
