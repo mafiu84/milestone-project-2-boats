@@ -1,5 +1,9 @@
 /*body background*/
 body {
+background-color: silver;
+}
+
+.black-background{
 background-color: black;
 }
 
@@ -7,7 +11,7 @@ background-color: black;
 h1 {
     font-size: 6vw;
     font-family: "raleway", sans-serif;
-    color: #fff;
+    color: #000;
     text-align: center;
 }
 
@@ -35,7 +39,7 @@ margin-bottom: 4.5vw
 
 a { 
 color: #fe921f; 
-text-decoration: underline; 
+text-decoration: underline;
 }
 
 
@@ -43,18 +47,7 @@ a:hover {
 color: #ffffff 
 }
 
-/*
-.date { 
-background: #fe921f; 
-color: #ffffff; 
-display: inline-block; 
-font-family: 'Lato', sans-serif; 
-font-size: 12px; 
-font-weight: bold; 
-line-height: 12px; 
-letter-spacing: 1px; 
-margin: 0 0 30px; 
-padding: 10px 15px 8px; 
-text-transform: uppercase; 
+a.col-xl-12.col-sm-12.col-xs-12.col-xl-6.col-sm-6.col-xs-6 {
+    padding: 0, 0;
 }
-*/
+
