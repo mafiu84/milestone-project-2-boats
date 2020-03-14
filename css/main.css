@@ -77,7 +77,6 @@ position: relative;
 
 .image {
   opacity: 1;
-  width: 100%;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
