@@ -5,7 +5,7 @@ font-size: 16px;
 }
 
 .header-pic{
-background-image: url("/img/background2.jpg");
+background-image: url("/assets/img/background2.jpg");
 background-position:center;
 background-repeat:no-repeat;
 height:30vw;
@@ -238,4 +238,12 @@ p.validator-css{
 /**map rendering styles**/
 div#map {
     min-height: 60vw;
+}
+
+/**contact form**/
+
+.form-control{
+    height: 3em;
+    font-size: 1em;
+    display: grid;
 }

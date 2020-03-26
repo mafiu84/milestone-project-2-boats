@@ -55,22 +55,38 @@
 <!--jquerry photoset grid-->
 <div class="photoset-grid-basic" data-layout="12">
   <a class="image" id="LiverpoolMarina">
-    <img src="img/liverpoolmarina.jpg" width="70%" height="auto" data-highres="img/demo/nyc1-highres.jpg" alt="Liverpool Marina">
+    <img src="assets/img/liverpoolmarina.jpg" width="70%" height="auto" data-highres="img/demo/nyc1-highres.jpg" alt="Liverpool Marina">
     <div class="middle1"><div class="text">Liverpool Marina</div></div>
   </a>
-  <a class="image"  id="MerseyMotorBoatClub"><img src="img//mmbc.jpg" width="30%" height="auto" data-highres="img/demo/nyc2-highres.jpg" alt="Mersey Motor Boat Club">
+  <a class="image"  id="MerseyMotorBoatClub"><img src="assets/img//mmbc.jpg" width="30%" height="auto" data-highres="img/demo/nyc2-highres.jpg" alt="Mersey Motor Boat Club">
     <div class="middle2"><div class="text">Mersey Motor Boat Club</div></div>
   </a>
-  <a class="image"  id="StanleyDock"><img src="img/stanleydock.jpg" width="50%" height="auto" data-highres="img/demo/nyc3-highres.jpg" alt="Stanley Dock">
+  <a class="image"  id="StanleyDock"><img src="assets/img/stanleydock.jpg" width="50%" height="auto" data-highres="img/demo/nyc3-highres.jpg" alt="Stanley Dock">
     <div class="middle3"><div class="text">Stanley Dock</div></div>
   </a>
-  <a class="image"  id="CollingwoodBoatBuilders"><img src="img/cbb.jpg" width="30%" height="auto" data-highres="img/demo/nyc2-highres.jpg" alt="Collingwood Boat Builders">
+  <a class="image"  id="CollingwoodBoatBuilders"><img src="assets/img/cbb.jpg" width="30%" height="auto" data-highres="img/demo/nyc2-highres.jpg" alt="Collingwood Boat Builders">
     <div class="middle4"><div class="text">Collingwood Boat Builders</div></div>
   </a>
-  <a class="image" id="MerseyFerries"><img src="img/merseyferries.jpg" width="65%" height="auto" data-highres="img/demo/nyc3-highres.jpg" alt="Mersey Ferries">
+  <a class="image" id="MerseyFerries"><img src="assets/img/merseyferries.jpg" width="65%" height="auto" data-highres="img/demo/nyc3-highres.jpg" alt="Mersey Ferries">
     <div class="middle5"><div class="text">Mersey Ferries</div></div>
   </a>
 </div>
+
+<!--Map-->
+<div id="map"></div>
+
+<!--Contact form-->
+	<h2>Contact regarding bus trips to one of those places</h1>
+	<div class="form-resizing col-md-4 col-xs-6" aria-label="contact form to fill">
+		<form>
+			<input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+			<input type="text" name="company" class="form-control" id="companyname" placeholder="Company"/>
+			<input type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+            <input type="date" name="date" class="form-control" id="date" placeholder="Date" required/>
+			<textarea rows="3" name="projectsummary" class="form-control" id="projectsummary" placeholder="Short description" required></textarea>
+			<button type="submit" class="btn btn-secondary center-block">Contact</button>
+		</form>
+	</div>
 
 <!--footer-->
 
@@ -83,12 +99,8 @@
     </div>
 </div>
 
-<div id="map"></div>
-
 <!--scripts-->
-    <script>
-        var APIKey="AIzaSyBQXfFkzrbdgn7fiDwmgXAloNd02R8JKDc";
-    </script>
+    <script> var APIKey="AIzaSyBQXfFkzrbdgn7fiDwmgXAloNd02R8JKDc"; </script>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQXfFkzrbdgn7fiDwmgXAloNd02R8JKDc&callback=initMap"></script>
     <script src="/assets/js/maps.js"></script>
