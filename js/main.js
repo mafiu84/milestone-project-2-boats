@@ -41,7 +41,7 @@ display_c();
  }
  */
 
-
+/*
  // Create a request variable and assign a new XMLHttpRequest object to it.
 var request = new XMLHttpRequest()
 
@@ -66,4 +66,4 @@ if (request.status = 200){
 } else {
   console.log("error")
 }
-
+*/

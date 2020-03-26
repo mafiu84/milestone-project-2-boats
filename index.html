@@ -91,8 +91,19 @@
         </p> -->     
     </div>
 </div>
-<section id="map"></section>
+<div id="map"></div>
 <!--scripts-->
+    <script>
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 9,
+                center: {
+                    lat: 53.400002,
+                    lng: -2.983333
+                }
+            });
+        }
+    </script>
     <script>
         var APIKey="AIzaSyBQXfFkzrbdgn7fiDwmgXAloNd02R8JKDc";
     </script>

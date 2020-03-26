@@ -234,3 +234,8 @@ p.validator-css{
     text-align: right;
     margin-top: 0.15vw;
 }
+
+/**map rendering styles**/
+div#map {
+    min-height: 80vw;
+}
