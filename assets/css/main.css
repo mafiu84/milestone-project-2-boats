@@ -1,21 +1,30 @@
 /*backgrounds*/
 body {
-background-color: #EFEEEA;
-font-size: 16px;
+    background-color: #EFEEEA;
+    font-size: 16px;
 }
 
 .header-pic{
-background-image: url("/assets/img/background2.jpg");
-background-position:center;
-background-repeat:no-repeat;
-height:30vw;
-width:100vw;
-padding: 1em;
-background-size: cover;
+    background-image: url("/assets/img/background2.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    height:30vw;
+    padding: 1em;
+    background-size: cover;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .black-background{
 background-color: #40383B;
+}
+
+/*rows margins*/
+.row {
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 /*main headings styles*/
