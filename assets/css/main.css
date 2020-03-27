@@ -5,7 +5,7 @@ body {
 }
 
 .header-pic{
-    background-image: url("/assets/img/background2.jpg");
+    background-image: url("assets/img/background2.jpg");
     background-position:center;
     background-repeat:no-repeat;
     height:30vw;
