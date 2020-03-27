@@ -59,13 +59,17 @@ text-shadow: 0 2px 0 black;
   }
 }
 
-/**galery text styles**/
+/**galery styles**/
 
 .gallery {
-color: #40383B;
-text-shadow: 0 2px 0 black;;
+    color: #40383B;
+    text-shadow: 0 2px 0 black;;
 }
 
+.img-thumbnail{
+    border-radius: 2em;
+    max-width: 100%;
+}
 /**paragraphs styling**/
 
 p { 
@@ -88,11 +92,12 @@ a:hover {
 color: #ffffff 
 }
 
-/**Gallery pictures hover**/
+/**Gallery pictures attempt 1 hover**/
 
 .photoset-grid-basic{
 position: relative;
 }
+
 
 .image {
   opacity: 1;
@@ -103,7 +108,7 @@ position: relative;
 
 .middle1 {
   transition: .5s ease;
-  opacity: 0;
+  opacity: 0.5;
   position: absolute;
   top: 15%;
   left: 35%;
@@ -162,7 +167,6 @@ position: relative;
   font-size: 1.5vw;
 }
 
-
 .photoset-grid-basic:hover .middle1 {
   opacity: 1;
 }
@@ -186,6 +190,27 @@ position: relative;
 .photoset-grid-basic:hover .image {
   opacity: 0.8;
 }
+/**Gallery pictures attempt 2 hover**/
+
+#LiverpoolMarina:hover {
+    opacity: 0.8;
+}
+
+#MerseyMotorBoatClub:hover {
+    opacity: 0.8;
+}
+
+#StanleyDock:hover {
+    opacity: 0.8;
+}
+
+#CollingwoodBoatBuilders:hover {
+    opacity: 0.8;
+}
+
+#MerseyFerries:hover {
+    opacity: 0.8;
+}
 
 /**Link to id's on pictures**/
 
@@ -207,20 +232,25 @@ text-decoration: none;
     background-color: #000000;
     background: rgba(0, 0, 0, 0.75);
     border-color: #e7e7e7;
-    height: 3.3vw;
+    height: 2vw;
 }
 
 span.navbar-text{
-    font-size: 1.5vw;
-    line-height: 1.5vw;
+    position: absolute;
+    font-size: 1vw;
+    color: white;
+    line-height: 1vw;
     margin-right: 0.1vw;
     margin-left: 0.1vw;
-    margin-top: 0.9vw;
-    margin-bottom: 0.1vw;
 }
 
 .navbar{
     min-height: 3.3vw;
+}
+
+.footer{
+    position: sticky;
+    bottom: 0;
 }
 
 .list-inline>li {

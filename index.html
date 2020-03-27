@@ -7,8 +7,10 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="author" content="Mateusz Poplewski">
 	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-		type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		type="text/css" />-->
 	<link rel="stylesheet" href="assets/css/main.css" type="text/css" />
 	<title>Merseyside Boating Guide</title>
 </head>
@@ -104,12 +106,13 @@
 		</div>
 		</div>
 	</section>
-	<!--Gallery-->
+	<!--Gallery attempt 1-->
+<!--
 	<section class="galleries">
 		<div class="row">
 			<div class="col-12">
 				<h2 class="gallery">Gallery</h2>
-				<!--jquerry photoset grid-->
+				<!--jquerry photoset grid
 				<div class="photoset-grid-basic" data-layout="12">
 					<a class="image" id="LiverpoolMarina">
 						<img src="assets/img/liverpoolmarina.jpg" width="70%" height="auto" data-highres="img/demo/nyc1-highres.jpg" alt="Liverpool Marina">
@@ -141,6 +144,23 @@
 			</div>
 		</div>
 	</section>
+-->
+	<!--Gallery attempt 2-->
+    <Section class="gallery-header">
+    <div class="row">
+    <h2 class="gallery">Gallery</h2>
+    </div>
+    </Section>
+	<section class="galleries">
+		<div class="row">
+            <a id="LiverpoolMarina"><img src="assets/img/liverpoolmarina.jpg" alt="Liverpool Marina" class="img-thumbnail"></a>   
+			<a id="MerseyMotorBoatClub"><img src="assets/img//mmbc.jpg" alt="Mersey Motor Boat Club" class="img-thumbnail"></a>
+			<a id="StanleyDock"><img src="assets/img/stanleydock.jpg" alt="Stanley Dock" class="img-thumbnail"></a>
+			<a id="CollingwoodBoatBuilders"><img src="assets/img/cbb.jpg" alt="Collingwood Boat Builders" class="img-thumbnail"></a>
+            <a id="MerseyFerries"><img src="assets/img/merseyferries.jpg" alt="Mersey Ferries" class="img-thumbnail"></a>
+		</div>
+	</section>
+
 	<!--Contact form-->
 	<section class="contact">
 		<div class="row">
@@ -201,11 +221,9 @@
 			<div class="col-12">
 				<!--Site made by...--->
 				<div class="navbar navbar-default navbar-fixed-bottom">
-					<div class="container">
-						<!---Credits-link to git hub-->
-						<span class="navbar-text pull-left">© 2020 - Site Built By <a class="credits" href="https://github.com/mafiu84" target="_blank"> mafiu84</a>
+					<!---Credits-link to git hub-->
+					<span class="navbar-text pull-left">© 2020 - Site Built By <a class="credits" href="https://github.com/mafiu84" target="_blank"> mafiu84</a>
         </span>
-					</div>
 				</div>
 			</div>
 		</div>
