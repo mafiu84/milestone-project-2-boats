@@ -13,6 +13,12 @@
 		type="text/css" />-->
 	<link rel="stylesheet" href="assets/css/main.css" type="text/css" />
 	<title>Merseyside Boating Guide</title>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function(){
+      emailjs.init("user_LYCAaBmQkGbAnlvCqR3Dy");
+   })();
+	</script>
 </head>
 
 <body>
@@ -104,10 +110,9 @@
 					<a href="https://www.merseyferries.co.uk/" target="_blank">Read more...</a></p>
 			</div>
 		</div>
-		</div>
 	</section>
 	<!--Gallery attempt 1-->
-<!--
+	<!--
 	<section class="galleries">
 		<div class="row">
 			<div class="col-12">
@@ -146,18 +151,18 @@
 	</section>
 -->
 	<!--Gallery attempt 2-->
-    <Section class="gallery-header">
-    <div class="row">
-    <h2 class="gallery">Gallery</h2>
-    </div>
-    </Section>
+	<section class="gallery-header">
+		<div class="row">
+			<h2 class="gallery">Gallery</h2>
+		</div>
+	</section>
 	<section class="galleries">
 		<div class="row">
-            <a id="LiverpoolMarina"><img src="assets/img/liverpoolmarina.jpg" alt="Liverpool Marina" class="img-thumbnail"></a>   
-			<a id="MerseyMotorBoatClub"><img src="assets/img//mmbc.jpg" alt="Mersey Motor Boat Club" class="img-thumbnail"></a>
-			<a id="StanleyDock"><img src="assets/img/stanleydock.jpg" alt="Stanley Dock" class="img-thumbnail"></a>
-			<a id="CollingwoodBoatBuilders"><img src="assets/img/cbb.jpg" alt="Collingwood Boat Builders" class="img-thumbnail"></a>
-            <a id="MerseyFerries"><img src="assets/img/merseyferries.jpg" alt="Mersey Ferries" class="img-thumbnail"></a>
+			<a id="LiverpoolMarina"><img src="assets/img/liverpoolmarina.jpg" alt="Liverpool Marina" class="img-thumbnail"></a>
+				<a id="MerseyMotorBoatClub"><img src="assets/img//mmbc.jpg" alt="Mersey Motor Boat Club" class="img-thumbnail"></a>
+					<a id="StanleyDock"><img src="assets/img/stanleydock.jpg" alt="Stanley Dock" class="img-thumbnail"></a>
+						<a id="CollingwoodBoatBuilders"><img src="assets/img/cbb.jpg" alt="Collingwood Boat Builders" class="img-thumbnail"></a>
+							<a id="MerseyFerries"><img src="assets/img/merseyferries.jpg" alt="Mersey Ferries" class="img-thumbnail"></a>
 		</div>
 	</section>
 
@@ -167,7 +172,7 @@
 			<div class="col-12 col-md-6">
 				<h2 style="text-align: right; margin-bottom: 1em;">Contact regarding bus trips to one of those places
 				</h2>
-				<form class="form-horizontal">
+				<form onsubmit="return sendMail(this);">
 					<div class="form-group">
 						<label for="input_name" class="col-sm-2 control-label">Name</label>
 						<div class="col-sm-10">
@@ -211,7 +216,6 @@
 				<div id="map"></div>
 			</div>
 		</div>
-		</div>
 	</section>
 
 
@@ -239,6 +243,7 @@
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQXfFkzrbdgn7fiDwmgXAloNd02R8JKDc&callback=initMap">
 	</script>
 	<script src="assets/js/maps.js"></script>
+	<script src="assets/js/email.js"></script>
 </body>
 
 </html>
