@@ -9,8 +9,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-		type="text/css" />-->
 	<link rel="stylesheet" href="assets/css/main.css" type="text/css" />
 	<title>Merseyside Boating Guide</title>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
@@ -31,6 +29,28 @@
 				</div>
 			</div>
 		</div>
+	</section>
+	<!--Mission header-->
+	<section class="container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-sm-6">
+				<h2 class="about">About us...
+				</h2>
+			</div>
+		</div>
+	</section>
+	<!--Mission-->
+	<section class="container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-sm-6">
+				<h3 class="our-mission">Our mission is to provide information for boaters what is avavailable in
+					Merseyside to see.
+					Choosen points are best in our opinion. You can read desriptions of those 5 best places and
+					<a href="#book">book</a> a trip with guide to see them personally.
+				</h3>
+			</div>
+		</div>
+
 	</section>
 	<!--Text content- short description of supported attractions with links to their websites and small gallery-->
 	<section class="descriptions black-background">
@@ -128,66 +148,11 @@
 							<a id="MerseyFerries"><img src="assets/img/merseyferries.jpg" alt="Mersey Ferries" class="img-thumbnail"></a>
 		</div>
 	</section>
-	<!--Gallery attempt 1-->
-	<!--
-	<section class="galleries">
-		<div class="row">
-			<div class="col-12">
-				<h2 class="gallery">Gallery</h2>
-				<!--jquerry photoset grid
-				<div class="photoset-grid-basic" data-layout="12">
-					<a class="image" id="LiverpoolMarina">
-						<img src="assets/img/liverpoolmarina.jpg" width="70%" height="auto" data-highres="img/demo/nyc1-highres.jpg" alt="Liverpool Marina">
-						<div class="middle1">
-							<div class="text">Liverpool Marina</div>
-						</div>
-					</a>
-					<a class="image" id="MerseyMotorBoatClub"><img src="assets/img//mmbc.jpg" width="30%" height="auto" data-highres="img/demo/nyc2-highres.jpg" alt="Mersey Motor Boat Club">
-						<div class="middle2">
-							<div class="text">Mersey Motor Boat Club</div>
-						</div>
-					</a>
-					<a class="image" id="StanleyDock"><img src="assets/img/stanleydock.jpg" width="50%" height="auto" data-highres="img/demo/nyc3-highres.jpg" alt="Stanley Dock">
-						<div class="middle3">
-							<div class="text">Stanley Dock</div>
-						</div>
-					</a>
-					<a class="image" id="CollingwoodBoatBuilders"><img src="assets/img/cbb.jpg" width="30%" height="auto" data-highres="img/demo/nyc2-highres.jpg" alt="Collingwood Boat Builders">
-						<div class="middle4">
-							<div class="text">Collingwood Boat Builders</div>
-						</div>
-					</a>
-					<a class="image" id="MerseyFerries"><img src="assets/img/merseyferries.jpg" width="65%" height="auto" data-highres="img/demo/nyc3-highres.jpg" alt="Mersey Ferries">
-						<div class="middle5">
-							<div class="text">Mersey Ferries</div>
-						</div>
-					</a>
-				</div>
-			</div>
-		</div>
-	</section>
--->
-	<!--Gallery attempt 2-->
-	<!--<section class="gallery-header">
-		<div class="row">
-			<h2 class="gallery">Gallery</h2>
-		</div>
-	</section>
-	<section class="galleries">
-		<div class="row">
-			<a id="LiverpoolMarina"><img src="assets/img/liverpoolmarina.jpg" alt="Liverpool Marina" class="img-thumbnail"></a>
-				<a id="MerseyMotorBoatClub"><img src="assets/img//mmbc.jpg" alt="Mersey Motor Boat Club" class="img-thumbnail"></a>
-					<a id="StanleyDock"><img src="assets/img/stanleydock.jpg" alt="Stanley Dock" class="img-thumbnail"></a>
-						<a id="CollingwoodBoatBuilders"><img src="assets/img/cbb.jpg" alt="Collingwood Boat Builders" class="img-thumbnail"></a>
-							<a id="MerseyFerries"><img src="assets/img/merseyferries.jpg" alt="Mersey Ferries" class="img-thumbnail"></a>
-		</div>
-	</section>
--->
 	<!--Contact form-->
-	<section class="contact">
+	<section id="book" class="contact">
 		<div class="row">
 			<div class="col-12 col-md-6">
-				<h2 style="text-align: right; margin-bottom: 1em;">Contact regarding bus trips to one of those places
+				<h2 style="text-align: right; margin-bottom: 1em;">Contact to book a trip
 				</h2>
 				<form onsubmit="return sendMail(this);">
 					<div class="form-group">
