@@ -190,7 +190,7 @@ position: relative;
 .photoset-grid-basic:hover .image {
   opacity: 0.8;
 }
-/**Gallery pictures attempt 2 hover**/
+/**Gallery pictures hover**/
 
 #LiverpoolMarina:hover {
     opacity: 0.8;
@@ -211,7 +211,30 @@ position: relative;
 #MerseyFerries:hover {
     opacity: 0.8;
 }
+/**Gallery alignment on 1550px+ screens**/
 
+@media only screen and (min-width: 1550px) {
+
+#LiverpoolMarina {
+    margin-left: 9em;
+}
+
+#MerseyMotorBoatClub {
+    margin-left: 9em;
+}
+
+#StanleyDock {
+    margin-left: 9em;
+}
+
+#CollingwoodBoatBuilders {
+    margin-left: 9em;
+}
+
+#MerseyFerries {
+    margin-left: 9em;
+}
+}
 /**Link to id's on pictures**/
 
 .linktopic {
