@@ -13,13 +13,14 @@ Live demo you will found [here](https://mafiu84.github.io/milestone-project-2-bo
 
 ### User stories
 
-//As a fan of group i want to see news about group and listen to their music
+* As a person
 
 As an event organizer I want to have possibility to listen to music of group and contact if I'm interested in cooperation//  
 
 ### Strategy
 
-My goal was to build mobile friendly, responsive and interactive website with all the information easily accessible from links in gallery or just scrolling up or down.
+My goal was to build mobile friendly, responsive and interactive website with all the information easily accessible 
+just scrolling up or down and with links whitin website.
 
 ### Scope
 
@@ -46,13 +47,11 @@ HTML - Hypertext Markup Language - used for building basic structure of website,
 
 CSS - Cascading Style Sheets - adding styles to website like fonts, colours, layout etc. [official description](https://www.w3.org/Style/CSS/)
 
-Bootstrap 3.3.7 - library that I've used to build responsive grid layout and as base for some smaller elements available [here](https://getbootstrap.com/)
+JS - Java Script - 
 
-Font Awesome - I've used this library to get icons and social websites logos available [here](https://fontawesome.com/)
+Bootstrap 4.4.1 - library that I've used to build responsive grid layout and as base for some smaller elements available [here](https://getbootstrap.com/)
 
-Additional fonts from Google Fonts library (Carter One, Source Sans Pro) available [here](https://fonts.google.com/)
-
-Fotor - photo editing app, to edit background pictures, downloaded from [here](https://www.fotor.com/windows/index.html)
+Additional font from Google Fonts library (Lato) available [here](https://fonts.google.com/)
 
 ## FEATURES
 
