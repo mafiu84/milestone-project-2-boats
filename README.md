@@ -13,8 +13,9 @@ Live demo you will found [here](https://mafiu84.github.io/milestone-project-2-bo
 
 ### User stories
 
-* As a person
+* As a person who is new to industry who wants to buy boat and see basic  
 
+* As a person who
 As an event organizer I want to have possibility to listen to music of group and contact if I'm interested in cooperation//  
 
 ### Strategy
@@ -31,6 +32,7 @@ For people interested in cooperation, I wanted to provide possibility to contact
 ### Structure
 
 In contact form I wanted to provide possibility to send email by email js, footer stays collapsed regardless to screen size for easy acces.
+
 
 ### Skeleton
 
@@ -71,9 +73,20 @@ Also I've tested website in chrome devtools for responsiveness and on multiple b
 
 ## DEPLOYMENT
 
-This site is hosted using GitHub pages, deployed from master branch. 
-The live site updates automatically each time there is a new push to the repository. 
-You can <code>git clone</code> the code to run it locally on your machine.
+This site is hosted using GitHub pages.
+The live site updates automatically each time there is a new push to the repository.
+
+First you need to created github account. Project is deployed from master branch.
+
+Project is hosted at:
+
+https://github.com/mafiu84/milestone-project-2-boats
+
+You can clone the code to run it locally on your machine from my github:
+
+https://mafiu84.github.io/milestone-project-2-boats/
+
+To clone it simply type in terminal `git clone https://github.com/mafiu84/milestone-project-2-boats`
 
 ## CREDITS
 
