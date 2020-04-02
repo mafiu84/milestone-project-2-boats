@@ -49,7 +49,7 @@ HTML - Hypertext Markup Language - used for building basic structure of website,
 
 CSS - Cascading Style Sheets - adding styles to website like fonts, colours, layout etc. [official description](https://www.w3.org/Style/CSS/)
 
-JS - Java Script - I've used Java Script to implement Google maps API and EmailJS API
+JS - Java Script - I've used Java Script to implement Google maps API and EmailJS API. [JavaScript wikipedia article](https://en.wikipedia.org/wiki/JavaScript)
 
 Bootstrap 4.4.1 - library that I've used to build responsive grid layout and as base for some smaller elements available [here](https://getbootstrap.com/)
 
@@ -103,8 +103,8 @@ All photos are from stock libraries and from linked websites.
 Linked pages are:
 
 * [Liverpool Marina](https://www.liverpoolmarina.com/)
-* [Mersey Motor Boat Club]http://www.mmbc.co.uk/)
-* [Stanley Dock]https://stanleydock.com/)
-* [Collingwood Boat Builders]https://www.collingwoodboatbuilders.co.uk/)
-* [Mersey Ferries]https://www.merseyferries.co.uk/)
+* [Mersey Motor Boat Club](http://www.mmbc.co.uk/)
+* [Stanley Dock](https://stanleydock.com/)
+* [Collingwood Boat Builders](https://www.collingwoodboatbuilders.co.uk/)
+* [Mersey Ferries](https://www.merseyferries.co.uk/)
 * [GitHub Pages](https://pages.github.com)
