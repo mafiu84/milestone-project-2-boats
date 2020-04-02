@@ -49,7 +49,7 @@ HTML - Hypertext Markup Language - used for building basic structure of website,
 
 CSS - Cascading Style Sheets - adding styles to website like fonts, colours, layout etc. [official description](https://www.w3.org/Style/CSS/)
 
-JS - Java Script - 
+JS - Java Script - I've used Java Script to implement Google maps API and EmailJS API
 
 Bootstrap 4.4.1 - library that I've used to build responsive grid layout and as base for some smaller elements available [here](https://getbootstrap.com/)
 
@@ -57,11 +57,11 @@ Additional font from Google Fonts library (Lato) available [here](https://fonts.
 
 ## FEATURES
 
-YouTube link is implemented on every site in container on bottom and its always visible as it scrolls with website. On contact page there are all link to social media of the band. Sites are responsive and on mobile screens there is drop down menu instead of navbar to get better clarity of content.
+Footer is sticky and it scrolls with website. 
 
 ### Features left to implement
 
-In future I would like to add online shop to sell items related to the group.
+In future I would like to add extended booking option with calendar showing which dates are available.
 
 ## TESTING
 
@@ -92,13 +92,19 @@ To clone it simply type in terminal `git clone https://github.com/mafiu84/milest
 
 ### Content
 
-As content i used Lorem ipsum text to complete the contents if necessary. 
+For content I've used mostly descriptions from websites that are linked as attractions. Only About section is written by me.
 
 ### Media
 
-All photos re from stock libraries and edited in Fotor app to keep the color theme of the page. Theme is dark bacause it reduces the luminance emitted by device screens, while still meeting minimum color contrast ratios. It helps improve visual ergonomics by reducing eye strain, adjusting brightness to current lighting conditions, and facilitating screen use in dark environments – all while conserving battery power.
+All photos are from stock libraries and from linked websites.
 
 ### Acknowledgements
 
-Band logo working as link to landing page was inspired by official website of group [official site](https://www.monkees.com/).
+Linked pages are:
 
+* [Liverpool Marina](https://www.liverpoolmarina.com/)
+* [Mersey Motor Boat Club]http://www.mmbc.co.uk/)
+* [Stanley Dock]https://stanleydock.com/)
+* [Collingwood Boat Builders]https://www.collingwoodboatbuilders.co.uk/)
+* [Mersey Ferries]https://www.merseyferries.co.uk/)
+* [GitHub Pages](https://pages.github.com)
