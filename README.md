@@ -42,8 +42,8 @@ In contact form I wanted to provide possibility to send email by emailJS. Footer
 
 ### Skeleton
 
-<p><a href="https://github.com/mafiu84/milestone-project-2-marinas/blob/8b0f98a6facfae50ca108b17ef53ba1da5d9a826/assets/wireframes%20for%20milestone%20project%202.bmpr"></a></p>Balsamiq wireframes
-<p><a href="https://github.com/mafiu84/milestone-project-2-marinas/blob/8b0f98a6facfae50ca108b17ef53ba1da5d9a826/assets/wireframes%20for%20milestone%20project%202.pdf"></a></p>PDF wireframes
+[Balsamiq Wireframes](https://github.com/mafiu84/milestone-project-2-marinas/blob/8b0f98a6facfae50ca108b17ef53ba1da5d9a826/assets/wireframes%20for%20milestone%20project%202.bmp)
+[PDF Wireframes](https://github.com/mafiu84/milestone-project-2-marinas/blob/8b0f98a6facfae50ca108b17ef53ba1da5d9a826/assets/wireframes%20for%20milestone%20project%202.pdf)
 
 ### Surface
 
