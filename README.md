@@ -3,7 +3,7 @@
 Stream Two Project: Interactive Frontend Development - Code Institute
 
 Interactive website showing locations and short description of best places of interests for fans of boats and everything what's related to them in Merseyside, 
-North West of England with possibility to book a bus with guide to any of them via contact form.
+North West of England with possibility to book a bus with guide to any of them via contact form. Website is directed to private people.
 
 ## DEMO
 
@@ -13,10 +13,13 @@ Live demo you will found [here](https://mafiu84.github.io/milestone-project-2-bo
 
 ### User stories
 
-* As a person who is new to industry who wants to buy boat and see basic  
-
-* As a person who
-As an event organizer I want to have possibility to listen to music of group and contact if I'm interested in cooperation//  
+* As a person who is new to boating I want to read about basics.
+* As a person who is new to boating I want to go to talk with boat sellers and see building process.
+* As a person who is new to boating I want to check mooring possibilities and costs.
+* As a person who is interested in history I want to read about and see old docks.
+* As a person who is interested in going for a family day out I would like to go on ferry trip.
+* As a person who already own a boat and want to swap it on new I want to read about boat builders and see their offer.
+* As a person who already have a boat I want to join club to meet other boaters.
 
 ### Strategy
 
@@ -25,13 +28,16 @@ just scrolling up or down and with links whitin website.
 
 ### Scope
 
-//For fans, I wanted to provide them with all the news about group, and media to look at.
-
-For people interested in cooperation, I wanted to provide possibility to contact group.//
+* For people who are interested in getting to know more about boating I wanted to provide good starting information to read everything about living abroad.
+* For people who want to talk with boat builders I wanted to provide possibility to travel with person who will oranise bus travel and meeting with representative of boat building company.
+* For people who want to see marina and talk about mooring costs I wanted to provide possibility to travel with person who will organise bus travel and meeting with representative.
+* For people who are looking for family day out I wanted to provide possibility to travel with guide to show and tell about history of old dock.
+* For people who are looking for family day out I wanted to provide possibility to travel and organise trip with ferry on Mersey river.
+* For people who have a boat and are looking for boating club I wanted to provide information about one of the oldest boating club and possibility to bus travel to meet other boaters.
 
 ### Structure
 
-In contact form I wanted to provide possibility to send email by email js, footer stays collapsed regardless to screen size for easy acces.
+In contact form I wanted to provide possibility to send email by emailJS. Footer stays collapsed regardless to screen size for easy acces. On map there are marked places with choosen points.
 
 
 ### Skeleton
