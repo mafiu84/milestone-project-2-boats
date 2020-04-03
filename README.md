@@ -47,7 +47,7 @@ In contact form I wanted to provide possibility to send email by emailJS. Footer
 
 ### Surface
 
-//Background pictures in landing page, music, video and contact page were edited in fotor app that they would not distract attention from the content. Theme is dark to conserve power on battery powered devices.//
+Images compressed in [Compress JPEG online compresser](https://compressjpeg.com/)for better performance.
 
 ## TECHNOLOGIES
 
@@ -114,3 +114,4 @@ Linked pages are:
 * [Collingwood Boat Builders](https://www.collingwoodboatbuilders.co.uk/)
 * [Mersey Ferries](https://www.merseyferries.co.uk/)
 * [GitHub Pages](https://pages.github.com)
+* [Compress JPEG](https://compressjpeg.com/)
