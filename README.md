@@ -13,13 +13,13 @@ Live demo you will found [here](https://mafiu84.github.io/milestone-project-2-bo
 
 ### User stories
 
-* As a person who is new to boating I want to read about basics.
-* As a person who is new to boating I want to go to talk with boat sellers and see building process.
-* As a person who is new to boating I want to check mooring possibilities and costs.
-* As a person who is interested in history I want to read about and see old docks.
-* As a person who is interested in going for a family day out I would like to go on ferry trip.
-* As a person who already own a boat and want to swap it on new I want to read about boat builders and see their offer.
-* As a person who already have a boat I want to join club to meet other boaters.
+* *As a person who is new to boating I want to read about basics.*
+* *As a person who is new to boating I want to go to talk with boat sellers and see building process.*
+* *As a person who is new to boating I want to check mooring possibilities and costs.*
+* *As a person who is interested in history I want to read about and see old docks.*
+* *As a person who is interested in going for a family day out I would like to go on ferry trip.*
+* *As a person who already own a boat and want to swap it on new I want to read about boat builders and see their offer.*
+* *As a person who already have a boat I want to join club to meet other boaters.*
 
 ### Strategy
 
@@ -42,8 +42,8 @@ In contact form I wanted to provide possibility to send email by emailJS. Footer
 
 ### Skeleton
 
-[Balsamiq Wireframes](https://github.com/mafiu84/milestone-project-2-marinas/blob/8b0f98a6facfae50ca108b17ef53ba1da5d9a826/assets/wireframes%20for%20milestone%20project%202.bmp)
-[PDF Wireframes](https://github.com/mafiu84/milestone-project-2-marinas/blob/8b0f98a6facfae50ca108b17ef53ba1da5d9a826/assets/wireframes%20for%20milestone%20project%202.pdf)
+1. [Balsamiq Wireframes](https://github.com/mafiu84/milestone-project-2-boats/blob/master/assets/wireframes%20for%20milestone%20project%202.bmpr)
+2. [PDF Wireframes](https://github.com/mafiu84/milestone-project-2-boats/blob/master/assets/wireframes%20for%20milestone%20project%202.pdf)
 
 ### Surface
 
