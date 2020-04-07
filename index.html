@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="5 best places to get interrested in boating">
+	<meta name="description" content="5 best places to get interrested in boating">
 	<meta name="author" content="Mateusz Poplewski">
 	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -70,6 +70,35 @@
 		</div>
 
 	</section>
+	<!--Collingwood Boat Price Finder-->
+	<section class="container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-sm-6">
+				<h2>Collingwood Basic Boat Configurator</h2>
+				<form name="BoatConfigurator">
+					<p>Choose type of your beam:
+						<select name="Boat_type" onchange="setRange(this.value);">
+      <option value=" " selected="selected">Select a boat type</option>
+      <option value="1">Narrow Beam</option>
+      <option value="2">Wide Beam</option>
+    </select>
+					</p>
+					<p>Range:
+						<select name="Range" onchange="setLength();">
+   <option value=" " selected="selected">Select range</option>
+</select>
+					</p>
+					<p>Length:
+						<select name="Length" onchange="setPrice();">
+  <option value=" " selected="selected">Select length</option>
+  </select>
+					</p>
+				</form>
+				<h2 id="price"></h2>
+			</div>
+		</div>
+	</section>
+
 	<!--Text content- short description of supported attractions with links to their websites and small gallery-->
 	<section class="descriptions black-background">
 		<div class="row text-center">
@@ -84,94 +113,96 @@
 					the city is ever expanding with more sites to see and things to do than ever before. <a
 						href="https://www.liverpoolmarina.com/" target="_blank" rel="noreferrer">Read more...</a></p>
 			</div>
-            <div class="col text-center">
-			<a id="LiverpoolMarina"><img src="assets/img/liverpoolmarina.jpg" alt="Liverpool Marina" class="img-thumbnail"></a>
-            </div>				
-            <div class="col-12 col-md-6 col-lg-6">
-					<h2><a href="#MerseyMotorBoatClub" class="linktopic">Mersey Motor Boat Club</a></h2>
-					<p>The MMBC was founded at Litherland in 1932 and is one of the oldest Inland Waterways cruising
-						clubs
-						in
-						existence
-						<a href="/workspace/milestone-project-2-marinas/assets/mmbc-press.jpg" target="_blank" rel="noreferrer">
-							(click for press cuttings)</a>
-						The club’s objective is to encourage interest in boat building, cruising, popularise inland
-						waterways
-						and
-						social contact with people interested in these and allied activities.
-						The MMBC is affiliated to the Inland Waterways Association and the Association of Inland
-						Waterways
-						Cruising
-						Clubs. <a href="http://www.mmbc.co.uk/" target="_blank" rel="noreferrer">Read more...</a></p>
-				</div>
-                <div class="col text-center">
+			<div class="col text-center">
+				<a id="LiverpoolMarina"><img src="assets/img/liverpoolmarina.jpg" alt="Liverpool Marina" class="img-thumbnail"></a>
+			</div>
+			<div class="col-12 col-md-6 col-lg-6">
+				<h2><a href="#MerseyMotorBoatClub" class="linktopic">Mersey Motor Boat Club</a></h2>
+				<p>The MMBC was founded at Litherland in 1932 and is one of the oldest Inland Waterways cruising
+					clubs
+					in
+					existence
+					<a href="/workspace/milestone-project-2-marinas/assets/mmbc-press.jpg" target="_blank"
+						rel="noreferrer">
+						(click for press cuttings)</a>
+					The club’s objective is to encourage interest in boat building, cruising, popularise inland
+					waterways
+					and
+					social contact with people interested in these and allied activities.
+					The MMBC is affiliated to the Inland Waterways Association and the Association of Inland
+					Waterways
+					Cruising
+					Clubs. <a href="http://www.mmbc.co.uk/" target="_blank" rel="noreferrer">Read more...</a></p>
+			</div>
+			<div class="col text-center">
 				<a id="MerseyMotorBoatClub"><img src="assets/img//mmbc.jpg" alt="Mersey Motor Boat Club" class="img-thumbnail"></a>
-                </div>
-					<div class="col-12 col-md-6 col-lg-6">
-						<h2><a href="#StanleyDock" class="linktopic">Stanley Dock</a></h2>
-						<p>Millions of bricks, thousands of panes of glass and hundreds of steel girders constitute what
-							was
-							once
-							part
-							of the life blood of the thriving Port of Liverpool – the warehouses.
-							Rum and tobacco imported from exotic locations were stored here in great brick buildings,
-							the
-							size
-							the
-							world
-							had never seen before.
-							The docks at the mouth of the Mersey River, including Stanley Dock, pioneered modern dock
-							technology,
-							transport and port management. Stanley Dock sits at the heart of these historic docks.
-							The dock is a UNESCO World Heritage Site and a key heritage asset for Liverpool city. <a
-								href="https://stanleydock.com/history-heritage-stanley-dock-liverpool"
-								target="_blank" rel="noreferrer">Read
-								more...</a>
-						</p>
-					</div>
-                    <div class="col text-center">
-					<a id="StanleyDock"><img src="assets/img/stanleydock.jpg" alt="Stanley Dock" class="img-thumbnail"></a>
-                    </div>
-						<div class="col-12 col-md-6 col-lg-6">
-							<h2><a href="#CollingwoodBoatBuilders" class="linktopic">Collingwood Boat Builders</a></h2>
-							<p>We at Collingwood have a rich tradition in the design and construction of canal boats.
-								Based
-								in
-								Liverpool, we
-								are one of the longest established boat builders in the UK,
-								with an enviable reputation for delivering quality. With over 40 years of experience in
-								the
-								industry,
-								we pride ourselves on our attention to the finer details at every step of the
-								boat-building
-								process.
-								From
-								conception to inception,
-								we deliver innovative designs, suitable for both recreation and living aboard, leaving
-								you
-								with
-								a
-								vessel
-								that we’re proud to put the Collingwood name to.
-								<a href="https://www.collingwoodboatbuilders.co.uk/" target="_blank" rel="noreferrer">Read more...</a>
-							</p>
-						</div>
-                        <div class="col text-center">
-						<a id="CollingwoodBoatBuilders"><img src="assets/img/cbb.jpg" alt="Collingwood Boat Builders" class="img-thumbnail"></a>
-                        </div>
-							<div class="col-12 col-md-6 col-lg-6">
+			</div>
+			<div class="col-12 col-md-6 col-lg-6">
+				<h2><a href="#StanleyDock" class="linktopic">Stanley Dock</a></h2>
+				<p>Millions of bricks, thousands of panes of glass and hundreds of steel girders constitute what
+					was
+					once
+					part
+					of the life blood of the thriving Port of Liverpool – the warehouses.
+					Rum and tobacco imported from exotic locations were stored here in great brick buildings,
+					the
+					size
+					the
+					world
+					had never seen before.
+					The docks at the mouth of the Mersey River, including Stanley Dock, pioneered modern dock
+					technology,
+					transport and port management. Stanley Dock sits at the heart of these historic docks.
+					The dock is a UNESCO World Heritage Site and a key heritage asset for Liverpool city. <a
+						href="https://stanleydock.com/history-heritage-stanley-dock-liverpool" target="_blank"
+						rel="noreferrer">Read
+						more...</a>
+				</p>
+			</div>
+			<div class="col text-center">
+				<a id="StanleyDock"><img src="assets/img/stanleydock.jpg" alt="Stanley Dock" class="img-thumbnail"></a>
+			</div>
+			<div class="col-12 col-md-6 col-lg-6">
+				<h2><a href="#CollingwoodBoatBuilders" class="linktopic">Collingwood Boat Builders</a></h2>
+				<p>We at Collingwood have a rich tradition in the design and construction of canal boats.
+					Based
+					in
+					Liverpool, we
+					are one of the longest established boat builders in the UK,
+					with an enviable reputation for delivering quality. With over 40 years of experience in
+					the
+					industry,
+					we pride ourselves on our attention to the finer details at every step of the
+					boat-building
+					process.
+					From
+					conception to inception,
+					we deliver innovative designs, suitable for both recreation and living aboard, leaving
+					you
+					with
+					a
+					vessel
+					that we’re proud to put the Collingwood name to.
+					<a href="https://www.collingwoodboatbuilders.co.uk/" target="_blank" rel="noreferrer">Read
+						more...</a>
+				</p>
+			</div>
+			<div class="col text-center">
+				<a id="CollingwoodBoatBuilders"><img src="assets/img/cbb.jpg" alt="Collingwood Boat Builders" class="img-thumbnail"></a>
+			</div>
+			<div class="col-12 col-md-6 col-lg-6">
 
-								<h2><a href="#MerseyFerries" class="linktopic">Mersey Ferries</a></h2>
-								<p>Liverpool’s Ultimate Sightseeing Experience. Hop on the world famous Mersey Ferry and
-									see
-									Liverpool’s
-									UNESCO
-									World Heritage Waterfront.
-									<a href="https://www.merseyferries.co.uk/" target="_blank" rel="noreferrer">Read more...</a></p>
-							</div>
-                            <div class="col text-center">
-							<a id="MerseyFerries"><img src="assets/img/merseyferries.jpg" alt="Mersey Ferries" class="img-thumbnail"></a>
-                            </div>
+				<h2><a href="#MerseyFerries" class="linktopic">Mersey Ferries</a></h2>
+				<p>Liverpool’s Ultimate Sightseeing Experience. Hop on the world famous Mersey Ferry and
+					see
+					Liverpool’s
+					UNESCO
+					World Heritage Waterfront.
+					<a href="https://www.merseyferries.co.uk/" target="_blank" rel="noreferrer">Read more...</a></p>
+			</div>
+			<div class="col text-center">
+				<a id="MerseyFerries"><img src="assets/img/merseyferries.jpg" alt="Mersey Ferries" class="img-thumbnail"></a>
+			</div>
 		</div>
 	</section>
 	<!--Contact form-->
@@ -252,6 +283,7 @@
 	</script>
 	<script src="assets/js/maps.js"></script>
 	<script src="assets/js/email.js"></script>
+	<script src="assets/js/main.js"></script>
 </body>
 
 </html>
