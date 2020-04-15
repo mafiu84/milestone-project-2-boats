@@ -14,6 +14,7 @@ Live demo you will found [here](https://mafiu84.github.io/milestone-project-2-bo
 ### User stories
 
 * *As a person who is new to boating I want to read about basics.*
+* *As a person new to boating I want to see price ranges for new boats.*
 * *As a person who is new to boating I want to go to talk with boat sellers and see building process.*
 * *As a person who is new to boating I want to check mooring possibilities and costs.*
 * *As a person who is interested in history I want to read about and see old docks.*
@@ -29,6 +30,7 @@ just scrolling up or down and with links whitin website.
 ### Scope
 
 * For people who are interested in getting to know more about boating I wanted to provide good starting information to read everything about living abroad.
+* For people who want to see how much different range of new boats cost I've provided online configurator/price checker.
 * For people who want to talk with boat builders I wanted to provide possibility to travel with person who will oranise bus travel and meeting with representative of boat building company.
 * For people who want to see marina and talk about mooring costs I wanted to provide possibility to travel with person who will organise bus travel and meeting with representative.
 * For people who are looking for family day out I wanted to provide possibility to travel with guide to show and tell about history of old dock.
