@@ -100,12 +100,13 @@ p {
     font-family: Arial, sans-serif;
     font-size: 1em;
     line-height: 2em;
-    margin: 0em 1em 1.9em 1em;
+    margin: 0em 1em 1.9em 0em;
     text-align: left;
 }
 
 .content{
     color: #ccc;
+    margin: 0em 1em 1.9em 1em;
 }
 
 /**links styling**/
@@ -237,6 +238,10 @@ div#map {
 }
 
 .btn{
-    background-color: #fe921f;
+    background-color: #055777;
     font-size: 1.3em;
+    color: white;
+}
+select{
+    height: 2em;
 }
