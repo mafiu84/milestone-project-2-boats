@@ -36,7 +36,7 @@
 		<div class="row justify-content-center">
 			<div class="col-sm-6">
 				<h2 class="about">About us...
-					<svg viewBox="0 0 96 96">
+					<svg viewbox = "0 0 96 96">
 						<g id="down-arrow" transform="translate(-418 -150)">
 							<g id="Ellipse_2" data-name="Ellipse 2" transform="translate(418 150)" fill="none"
 								stroke="black" stroke-width="5">
@@ -76,19 +76,19 @@
 			<div class="col-sm-6">
 				<h2>Collingwood Basic Boat Configurator</h2>
 				<form name="BoatConfigurator">
-					<p>Choose type of your beam:
+					<p><label for="Boat_type"> Choose type of your beam:</label>
 						<select name="Boat_type" onchange="setRange(this.value);">
       <option value=" " selected="selected">Select a boat type</option>
       <option value="1">Narrow Beam</option>
       <option value="2">Wide Beam</option>
     </select>
 					</p>
-					<p>Range:
+					<p><label for="Range">Range:</label> 
 						<select name="Range" onchange="setLength();">
    <option value=" " selected="selected">Select range</option>
 </select>
 					</p>
-					<p>Length:
+					<p><label for="Length">Length:</label> 
 						<select name="Length" onchange="setPrice();">
   <option value=" " selected="selected">Select length</option>
   </select>
