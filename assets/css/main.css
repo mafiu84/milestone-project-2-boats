@@ -11,10 +11,7 @@ body {
     height:30vw;
     padding: 1em;
     background-size: cover;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 5%;
-    margin-top: 5%;
+    margin: 5% 25% 5%;
 }
 
 .black-background{
@@ -36,6 +33,7 @@ h1 {
     color: #fff;
     text-align: center;
     text-shadow: 0 1px 0 black;
+    background: black;
     background: rgba(0, 0, 0, 0.75);
 }
 
@@ -110,13 +108,13 @@ p {
     font-family: Arial, sans-serif;
     font-size: 1em;
     line-height: 2em;
-    margin: 0em 1em 1.9em 0em;
+    margin: 0 1em 1.9em 0;
     text-align: left;
 }
 
 .content{
     color: #ccc;
-    margin: 0em 1em 1.9em 1em;
+    margin: 0 1em 1.9em 1em;
 }
 
 /**links styling**/
@@ -195,12 +193,13 @@ color: #B34700;
 /**footer styles**/
 .navbar-default {
     background-color: #000000;
+    background: black;
     background: rgba(0, 0, 0, 0.75);
     border-color: #e7e7e7;
     height: 2vw;
 }
 
-span.navbar-text{
+.navbar-text{
     position: absolute;
     font-size: 1vw;
     color: white;
@@ -231,13 +230,8 @@ span.navbar-text{
     margin-left: 1px;
 }
 
-p.validator-css{
-    text-align: right;
-    margin-top: 0.15vw;
-}
-
 /**map rendering styles**/
-div#map {
+#map {
     min-height: 50vw;
 }
 
