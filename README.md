@@ -80,31 +80,21 @@ HTML tested in [NU HTML Checker](https://validator.w3.org/nu/) with warnings:
 
 From line 15, column 2; to line 15, column 103
 
-</title>↩	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></scri
-
 2. Warning: The type attribute is unnecessary for JavaScript resources.
 
 From line 16, column 2; to line 16, column 32
-
-/script>↩	<script type="text/javascript">↩		(fu
 
 3. Warning: Empty heading.
 
 From line 97, column 5; to line 97, column 19
 
-form>↩				<h2 id="price"></h2>↩
-
 4. Warning: The date input type is not supported in all browsers. Please be sure to test, and consider using a polyfill.
 
 From line 237, column 11; to line 237, column 72
 
-										<input type="date" class="form-control" id="date" name="date">↩    <
-
 5. Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
 
 From line 263, column 2; to line 263, column 25
-
-ooter-->↩	<section class="footer">↩		<di
 
 
 CSS tested in [CSS LINT](http://csslint.net) with warnings:
