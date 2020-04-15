@@ -7,7 +7,7 @@ North West of England with possibility to book a bus with guide to any of them v
 
 ## DEMO
 
-Live demo you will found [here](https://mafiu84.github.io/milestone-project-2-boats/)
+Live demo you will find [here](https://mafiu84.github.io/milestone-project-2-boats/)
 
 ## UX
 
