@@ -73,9 +73,57 @@ In future I would like to add extended booking option with calendar showing whic
 
 ## TESTING
 
-HTML tested in official validator\
-CSS tested in official validator\
+
+HTML tested in [NU HTML Checker](https://validator.w3.org/nu/)
+
+
+CSS tested in [CSS LINT](http://csslint.net) with warnings:
+
+* warning	12	5	Beware of broken box size	Using height with padding can sometimes make elements larger than you expect.
+    padding: 1em;
+* warning	51	1	Disallow IDs in selectors	Don't use IDs in selectors.
+#price {
+* warning	81	1	Headings should only be defined once	Heading (h3) has already been defined.
+h3 {
+* warning	89	3	Headings should only be defined once	Heading (h2) has already been defined.
+  h2 {
+* warning	133	1	Disallow IDs in selectors	Don't use IDs in selectors.
+#LiverpoolMarina:hover {
+* warning	137	1	Disallow IDs in selectors	Don't use IDs in selectors.
+#MerseyMotorBoatClub:hover {
+* warning	141	1	Disallow IDs in selectors	Don't use IDs in selectors.
+#StanleyDock:hover {
+* warning	145	1	Disallow IDs in selectors	Don't use IDs in selectors.
+#CollingwoodBoatBuilders:hover {
+* warning	149	1	Disallow IDs in selectors	Don't use IDs in selectors.
+#MerseyFerries:hover {
+* warning	156	1	Disallow IDs in selectors	Don't use IDs in selectors.
+#LiverpoolMarina {
+* warning	160	1	Disallow IDs in selectors	Don't use IDs in selectors.
+#MerseyMotorBoatClub {
+* warning	164	1	Disallow IDs in selectors	Don't use IDs in selectors.
+#StanleyDock {
+* warning	168	1	Disallow IDs in selectors	Don't use IDs in selectors.
+#CollingwoodBoatBuilders {
+* warning	172	1	Disallow IDs in selectors	Don't use IDs in selectors.
+#MerseyFerries {
+* warning	216	5	Require use of known properties	Expected (static | relative | absolute | fixed) but found 'sticky'.
+    position: sticky;
+* warning	234	1	Disallow IDs in selectors	Don't use IDs in selectors.
+#map {
+* warning	(rollup)	(rollup)	Disallow too many font sizes	Too many font-size declarations (11), abstraction needed.	All
+* warning	(rollup)	(rollup)	Headings should only be defined once	You have 2 h2s, 2 h3s defined in this stylesheet.	All
+
+
+CSS tested also in [jigsaw validator](https://jigsaw.w3.org/css-validator/validator) without any errors or warnings
+
+
+JS tested in [jshint](https://jshint.com/)
+
+
 Tested for performance, accessibility, best practices and SEO for mobile and desktop machines in chrome dev tools-Lighthouse.\
+
+
 Also I've tested website in chrome devtools for responsiveness and on multiple browsers and mobile devices.\
 
 

@@ -76,20 +76,20 @@
 			<div class="col-sm-6">
 				<h2 class="about">Collingwood Basic Boat Configurator</h2>
 				<form name="BoatConfigurator">
-					<p><label for="Boat_type">Choose type of your beam:</label>
-						<select name="Boat_type" onchange="setRange(this.value);">
+					<p><label for="Boat_type">Choose type of your beam:
+						<select id="Boat_type" name="Boat_type" onchange="setRange(this.value);">
       <option value=" " selected="selected">Select a boat type</option>
       <option value="1">Narrow Beam</option>
       <option value="2">Wide Beam</option>
-    </select>
+    </select></label>
 					</p>
 					<p><label for="Range">Range:</label> 
-						<select name="Range" onchange="setLength();">
+						<select id="Range" name="Range" onchange="setLength();">
    <option value=" " selected="selected">Select range</option>
 </select>
 					</p>
 					<p><label for="Length">Length:</label> 
-						<select name="Length" onchange="setPrice();">
+						<select id="Length" name="Length" onchange="setPrice();">
   <option value=" " selected="selected">Select length</option>
   </select>
 					</p>
@@ -213,31 +213,32 @@
 				</h2>
 				<form onsubmit="return sendMail(this);">
 					<div class="form-group">
-						<label for="input_name" class="col-sm-2 control-label">Name</label>
+						<label for="name" class="col-sm-2 control-label">Name</label>
 						<div class="col-sm-10">
-							<input type="text" label="Name" class="form-control" id="name" name="name" required/>
+							<input type="text" class="form-control" id="name" name="name" required/>
     </div>
 						</div>
 						<div class="form-group">
-							<label for="input_company" class="col-sm-2 control-label">Company</label>
+							<label for="company" class="col-sm-2 control-label">Company</label>
 							<div class="col-sm-10">
 								<input type="text" class="form-control" id="company" name="company">
+                                
     </div>
 							</div>
 							<div class="form-group">
-								<label for="input_email" class="col-sm-2 control-label">Email</label>
+								<label for="emailaddress" class="col-sm-2 control-label">Email</label>
 								<div class="col-sm-10">
 									<input type="text" class="form-control" id="emailaddress" name="emailaddress" required/>
     </div>
 								</div>
 								<div class="form-group">
-									<label for="input_date" class="col-sm-2 control-label">Date of travel</label>
+									<label for="date" class="col-sm-2 control-label">Date of travel</label>
 									<div class="col-sm-10">
 										<input type="date" class="form-control" id="date" name="date">
     </div>
 									</div>
 									<div class="form-group">
-										<label for="input_summary" class="col-sm-2 control-label">Short description</label>
+										<label for="projectsummary" class="col-sm-2 control-label">Short description</label>
 										<div class="col-sm-10">
 											<textarea class="form-control" id="projectsummary" name="projectsummary" required></textarea>
 										</div>
