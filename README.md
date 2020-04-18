@@ -185,3 +185,8 @@ Linked pages are:
 * [Mersey Ferries](https://www.merseyferries.co.uk/)
 * [GitHub Pages](https://pages.github.com)
 * [Compress JPEG](https://compressjpeg.com/)
+
+**Also I would like to thank my mentor Victor Miclovich for all the tips and feedback that I've used to finish this project.**
+
+
+
